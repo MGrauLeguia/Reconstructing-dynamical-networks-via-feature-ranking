@@ -15,9 +15,15 @@ To call the function you need the following imputs:
 (points,epsi,nodes,rho,llav2,map)
 
 %%% points= max data points of the generated coupled maps
+
 %%% epsi = coupling strength between maps (\epsilon in the paper)
+
 %%% nodes = number of nodes in the network
+
 %%% rho = link density of the random network
+
 %%% llav2 = seed for replication
+
 %%% map = type of map for the calculation map==1 logitic map, map==2 ikeda map
+
 %%% Place where you want to save your data%%%%
