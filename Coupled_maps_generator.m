@@ -1,4 +1,4 @@
-function mapscluster(points,epsi,nodes,rho,llav2,map)
+function Coupled_maps_generator(points,epsi,nodes,rho,llav2,map)
 %%%
 %%% Function generate the data of coupled logistic or ikeda maps
 %%%
