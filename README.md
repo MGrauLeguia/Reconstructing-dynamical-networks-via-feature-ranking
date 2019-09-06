@@ -3,9 +3,7 @@ Codes from Leguia et al, Chaos 29, 093107 (2019).
 
 Source codes:
  
-In order to understand the source codes in, you should first read the following document
- 
-Before publishing the source code, we have simplified it and reduced it to the essentials to allow for a better understanding. We are confident that, also with these simplifications and changes, the source code contains no bugs. However, if you encounter problems or bugs, please contact mgrauleg@gmail.com
+In order to understand the source codes in, you should first read the following document. If you encounter problems or bugs, please contact mgrauleg@gmail.com
 
 
 Function Coupled_maps_generator:
