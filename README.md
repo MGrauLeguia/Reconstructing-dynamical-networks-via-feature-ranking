@@ -13,7 +13,11 @@ The repository includes the Matlab code of the method and the data used in the p
 
 ## Method parameters
 
-*... Do we have any?*
+#Random Forest:
+	-Nº Tree's =1000;
+	-N features =sqrt(Nº nodes);
+#RreliefF:
+	-NearNeigh=10;
 
 
 ## Usage - R version
@@ -44,9 +48,7 @@ print(auc)
 ```
 
 
-## Usage - Matlab version
 
-*... Example?*
 
 
 ## Usage - data generation
@@ -61,7 +63,6 @@ The function Coupled_maps_generator.m can be used to simulate a network of coupl
  - map = type of map for the calculation (map=1 logistic map, map=2 Ikeda map)
  - Place where you want to save your data
 
- *... Example?*
 
 
 ## Disclaimer and contact
