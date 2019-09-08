@@ -14,9 +14,11 @@ The repository includes the Matlab code of the method and the data used in the p
 ## Method parameters
 
 #Random Forest:
+
 	-Nº Tree's =1000;
 	-N features =sqrt(Nº nodes);
 #RreliefF:
+
 	-NearNeigh=10;
 
 
