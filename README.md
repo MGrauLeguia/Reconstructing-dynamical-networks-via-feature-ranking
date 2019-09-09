@@ -12,6 +12,7 @@ The repository includes the Matlab code of the method and the data used in the p
 
 
 ## Method parameters
+The method reconstructs a network using in principle any feature ranking approach, the code implements two (Random Forest and RReliefF) for which the following parameters need to be set:
 
 #Random Forest:
 
