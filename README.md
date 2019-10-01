@@ -65,8 +65,22 @@ The function Coupled_maps_generator.m can be used to simulate a network of coupl
  - llav2 = seed for replication
  - map = type of map for the calculation (map=1 logistic map, map=2 Ikeda map)
  - Place where you want to save your data
-
-
+ ```r
+ # Define the inputs
+ points=50;
+ epsi=0.2;
+ nodes=12;
+ rho=0.1; # as in the paper
+ llav2=1; # a seed to reproduce data
+ map=1;  # logistic map
+ # Call the function
+ Coupled_maps_generator(points,epsi,nodes,rho,llav2,map)
+ 
+ # To save the data modify the following lines
+% savedir=''; Put your own path 
+%  name=sprintf('time-series%0.0fstr%0.1fden%0.1fN%0.0f.mat',llav2,epsi,rho,nodes);
+%  save([savedir, name ],'A','epsi','x');
+```
 
 ## Disclaimer and contact
 
