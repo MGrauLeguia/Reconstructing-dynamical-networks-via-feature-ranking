@@ -79,7 +79,7 @@ The function Coupled_maps_generator.m can be used to simulate a network of coupl
  # To save the data modify the following lines
 % savedir=''; Put your own path 
 %  name=sprintf('time-series%0.0fstr%0.1fden%0.1fN%0.0f.mat',llav2,epsi,rho,nodes);
-%  save([savedir, name ],'A','epsi','x');
+%  save([savedir, name ],'A','epsi','x'); # save adjacency matrix, coupling strength and time series
 ```
 
 ## Disclaimer and contact
